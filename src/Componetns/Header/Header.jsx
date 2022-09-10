@@ -11,9 +11,9 @@ const Header = () => {
       <h5>Hello I'm</h5>
       <h1>DURGASHANKAR PAL</h1>
       <ul className="dynamic_text">
-      <li><span>Developer</span></li>
-      <li><span>Designer</span></li>
-      <li><span>Freelancer</span></li>
+      <li><span>Web Designer</span></li>
+      <li><span>Fullstack Developer</span></li>
+      <li><span>FullTime Coder</span></li>
       </ul>
       <CTA/>
       <HeaderSocial/>

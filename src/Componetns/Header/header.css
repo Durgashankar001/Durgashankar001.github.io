@@ -1,5 +1,5 @@
 header {
-    padding-top: 4.5rem;
+    padding-top: 2.5rem;
     overflow: hidden;
 }
 
@@ -46,7 +46,8 @@ header {
     font-size: 1.5rem;
     letter-spacing: 2px;
     top: 0;
-    animation: slide 12s steps(3) infinite;
+    overflow: hidden;
+    animation: slide 9s steps(3) infinite;
 }
 
 @keyframes slide {
@@ -67,7 +68,8 @@ header {
     left: 0;
     background: #1d1d34;
     border-left: 2px solid var(--color-primary);
-    animation: typing 4s steps(5) infinite;
+    animation: typing 3s steps(5) infinite;
+    transition: 1s;
 }
 
 @keyframes typing {

@@ -1,4 +1,5 @@
-.portfolio_container {
+.container.portfolio_container {
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2.5rem;
@@ -19,7 +20,7 @@
 
 .portfolio_item_image {
     border-radius: 1.5rem;
-    /* height: 45%; */
+    height: 250px;
     overflow: hidden;
 }
 
@@ -40,7 +41,8 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .portfolio_container{
+    .container.portfolio_container{
+        width: var(--container-width-md);
         grid-template-columns: 1fr;
         gap: 1.3rem;
     }
@@ -48,7 +50,8 @@
 }
 
 @media screen and (max-width: 600px) {
- .portfolio_container{
+    .container.portfolio_container{
+        width: var(--container-width-sm);
     grid-template-columns: 1fr;
     gap: 1rem;
  }

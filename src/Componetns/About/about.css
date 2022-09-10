@@ -14,7 +14,7 @@
 .about_me_image{
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
+    transform: rotate(5deg);
     transition: var(--transistion);
 }
 

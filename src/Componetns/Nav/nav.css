@@ -1,7 +1,6 @@
-
 nav{
     background: rgba(0, 0, 0,0.3);
-    width: 330px;
+    width: max-content;
     display: block;
     padding: 0.7rem 1.7rem;
     z-index: 2;
@@ -13,6 +12,7 @@ nav{
     gap: 0.8rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
+    /* top: 50%; */
 }
 nav a{
     background: transparent;
@@ -28,16 +28,4 @@ nav a:hover{
 nav a.active{
     background: var(--color-primary);
     color: var(--color-bg);
-}
-@media screen and (max-width: 1024px) {}
-
-@media screen and (max-width: 600px) {
-
-   /* nav{
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 90%;
-   } */
-
 }

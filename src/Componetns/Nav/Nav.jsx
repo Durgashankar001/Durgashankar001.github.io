@@ -10,6 +10,7 @@ import { useState } from 'react'
 const Nav = () => {
   const [activenav,setActivenav] = useState("#")
   return (
+    <div className='nav_content'>
     <nav>
       <a href="#" onClick={()=>setActivenav("#")} className={activenav==="#" ? "active" : ""}><AiOutlineHome/></a>
       <a href="#about" onClick={()=>setActivenav("#about")} className={activenav==="#about" ? "active" : ""}><AiOutlineUser/></a>
@@ -17,6 +18,7 @@ const Nav = () => {
       <a href="#skill" onClick={()=>setActivenav("#skill")} className={activenav==="#skill" ? "active" : ""}><RiServiceLine/></a>
       <a href="#contact" onClick={()=>setActivenav("#contact")} className={activenav==="#contact" ? "active" : ""}><BiMessageSquareDetail/></a>
     </nav>
+    </div>
   )
 }
 

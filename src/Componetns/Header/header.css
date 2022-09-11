@@ -1,11 +1,14 @@
 header {
     padding-top: 2.5rem;
     overflow: hidden;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .header_container {
     text-align: center;
     position: relative;
+    height: 100%;
 }
 
 
@@ -122,13 +125,20 @@ header {
     font-size: 0.9rem;
 }
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {
+    header{
+        height: 68vh;
+    }
+}
 
 @media screen and (max-width: 600px) {
 
     .header_socials,
     .scroll_down {
         display: none;
+    }
+    header{
+        height: 100vh;
     }
 
 }

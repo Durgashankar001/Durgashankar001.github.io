@@ -1,22 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff81d4f3.css",
-    "main.js": "/static/js/main.6f8a35fa.js",
-    "static/media/cv.pdf": "/static/media/cv.1676dcdc83730930d888.pdf",
+    "main.css": "/static/css/main.f3648cff.css",
+    "main.js": "/static/js/main.2c4b0533.js",
     "static/media/me_img.png": "/static/media/me_img.658df818ea32cd922293.png",
-    "static/media/portfolio5.png": "/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
+    "static/media/one.jpeg": "/static/media/one.16506f93922278e3050b.jpeg",
+    "static/media/DurgashankarPal_resume.pdf": "/static/media/DurgashankarPal_resume.b9ff4a30ca841380c75a.pdf",
     "static/media/me_about.png": "/static/media/me_about.8774b83f587455b67ba1.png",
-    "static/media/portfolio2.jpg": "/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
-    "static/media/portfolio6.jpg": "/static/media/portfolio6.72d1107e313049cf15a7.jpg",
-    "static/media/portfolio1.jpg": "/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
-    "static/media/portfolio3.jpg": "/static/media/portfolio3.cbab42559fe73e73906f.jpg",
-    "static/media/portfolio4.jpg": "/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
+    "static/media/three.jpeg": "/static/media/three.f2f402d5b7015f053c76.jpeg",
+    "static/media/two.jpeg": "/static/media/two.2abf0f29cf2b84dbbe4b.jpeg",
     "index.html": "/index.html",
-    "main.ff81d4f3.css.map": "/static/css/main.ff81d4f3.css.map",
-    "main.6f8a35fa.js.map": "/static/js/main.6f8a35fa.js.map"
+    "main.f3648cff.css.map": "/static/css/main.f3648cff.css.map",
+    "main.2c4b0533.js.map": "/static/js/main.2c4b0533.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff81d4f3.css",
-    "static/js/main.6f8a35fa.js"
+    "static/css/main.f3648cff.css",
+    "static/js/main.2c4b0533.js"
   ]
 }

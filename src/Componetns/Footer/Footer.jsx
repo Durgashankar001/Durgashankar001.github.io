@@ -22,9 +22,9 @@ const Footer = () => {
         <a href="https://dribble.com" target="_blank"><FiDribbble/></a>
       </div>
 
-      <div className="footer_copyright">
-        <small>&copy; EGATOR. All copy rights reserved</small>
-      </div>
+      {/* <div className="footer_copyright">
+        <small>&copy; Durgashankar. All copy rights reserved</small>
+      </div> */}
     </footer>
   )
 }

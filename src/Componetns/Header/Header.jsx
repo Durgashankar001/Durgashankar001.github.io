@@ -12,7 +12,7 @@ const Header = () => {
       <h1>DURGASHANKAR PAL</h1>
       <ul className="dynamic_text">
       <li><span>Web Designer</span></li>
-      <li><span>Fullstack Developer</span></li>
+      <li><span>FullStack Developer</span></li>
       <li><span>FullTime Coder</span></li>
       </ul>
       <CTA/>

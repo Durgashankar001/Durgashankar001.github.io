@@ -11,7 +11,7 @@ const data = [
   {
     avatar: "https://d27028dliefpk3.cloudfront.net/assets/favicon/favicon-32x32.png",
     name: "Masai School",
-    year:"Apr 2022-Nov-2022",
+    year:"Apr 2022-Nov 2022",
     review: "Masai is an outcome driven career school.It is Intensive and Immersive Program. In a duration of 40 weeks, I have 1200+ hours hands on coding , 100+ Hour on SoftSkills."
   },
   {

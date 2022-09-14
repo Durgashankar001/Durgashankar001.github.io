@@ -74,7 +74,7 @@ const Experience = () => {
               <div className="client_avtar icon_img">
                 <img src="https://bootstrapmade.com/assets/img/logo-hero.png" alt="avatar" />
               </div>
-              <h4>Bootstarp</h4>
+              <h4>Bootstrap</h4>
               {/* <small className='text_light'>Intermeiate</small> */}
               </div>
             </article>

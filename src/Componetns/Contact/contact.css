@@ -1,7 +1,7 @@
 .container.contact-container{
     width: 58%;
     display: grid;
-    grid-template-columns: 30% 58%;
+    grid-template-columns: 34% 58%;
     gap: 12%;
 }
 .contact_options{
@@ -17,6 +17,12 @@
     border: 1px solid transparent;
     transition: var(--transition);
 }
+.contact_option h5{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
 .contact_option:hover{
     background: transparent;
     border-color: var(--color-primary-variant);

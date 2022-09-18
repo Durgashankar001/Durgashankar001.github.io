@@ -9,6 +9,7 @@ import Testimonial from './Componetns/Testimonials/Testimonial'
 import Contact from './Componetns/Contact/Contact'
 import Footer from './Componetns/Footer/Footer'
 import Services from "./Componetns/Services/Servises";
+import Github from "./Componetns/GithubCalender/githubCalender";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Experience/>
       <Protfolio/>
       <Services/>
+      <Github/>
       <Testimonial/>
       <Contact/>
       <Footer/>

@@ -61,6 +61,7 @@
     }
     .about_me{
         width: 50%;
+        background: transparent;
         margin: 2rem auto 4rem;
     }
     .about_content p{
@@ -73,6 +74,7 @@
    .about_me{
     width: 65%;
     margin: 0 auto 3rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary),transparent);
    }
    .about_cards{
     grid-template-columns: 1fr 1fr;

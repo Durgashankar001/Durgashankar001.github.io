@@ -32,16 +32,16 @@ const About = () => {
           <article  className='about_card'>
             <VscFolderLibrary className='about_icon'/>
             <h5>Projects</h5>
-            <small>6+ projects</small>
+            <small>6+ projects (Major)</small>
           </article>
           <article className='about_card'>
             <VscFolderLibrary className='about_icon'/>
-            <h5>Graduation</h5>
-            <small>Bsc (Physical Science)</small>
+            <h5>Coding</h5>
+            <small>1200+ Hours Of Coding</small>
           </article>
         </div>
 
-        <p >I am a Full Stack developer with experience in building websites and web applications. I specialize MERN stack, along with an expertise in JavaScript, HTML, CSS, and React. Outside of coding, my interest lies traveling..</p>
+        <p >I am a Full Stack developer with experience in building websites and web applications. I specialize MERN stack, along with an expertise in JavaScript, HTML, CSS, and React. Outside of coding, my interest lies in traveling..</p>
         <a  href="#contact" className='btn btn_primary'>Let's Talk</a>
       </div>
       </div>

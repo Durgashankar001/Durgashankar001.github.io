@@ -41,7 +41,7 @@ const About = () => {
           </article>
         </div>
 
-        <p >I am a Full Stack developer with experience in building websites and web applications. I specialize MERN stack, along with an expertise in JavaScript, HTML, CSS, and React. Outside of coding, my interest lies in traveling..</p>
+        <p >I am a Full Stack developer with experience in building websites and web applications. I specialize in MERN stack, along with an expertise in JavaScript, HTML, CSS, and React. Outside of coding, my interest lies in traveling..</p>
         <a  href="#contact" className='btn btn_primary'>Let's Talk</a>
       </div>
       </div>

@@ -85,8 +85,8 @@ const Protfolio = () => {
             </h3>
             <p className='project_desc'>Clockify is the most popular free time tracker and timesheet app for teams of all sizes. It is an online app that works in a browser, but you can also install it on your computer or phone.</p>
             <div className="buttons">
-            <a  href="https://github.com/Durgashankar001/resilient-thrill-6327" className='btn github' target="_blank">Github</a>
-            <a   href="https://uboricc.netlify.app/" className='btn btn_primary web' target="_blank">Live Demo</a>
+            <a  href="https://github.com/Durgashankar001/clockify_clone" className='btn github' target="_blank">Github</a>
+            <a   href="https://clockifyy.netlify.app/" className='btn btn_primary web' target="_blank">Live Demo</a>
             </div>
           </div>
         </div>
@@ -106,7 +106,7 @@ const Protfolio = () => {
             <p className='project_desc'>Uboric is an online shopping destination for children, men and women's luxury clothing, bags, shoes, and accessories. Uboric is India’s fastest growing online retail store for the day to
             day and special occasion.</p>
             <div className="buttons">
-            <a  href="https://github.com/Durgashankar001/resilient-thrill-6327" className='btn github' target="_blank">Github</a>
+            <a  href="https://github.com/Durgashankar001/Uboric.com-Clone" className='btn github' target="_blank">Github</a>
             <a   href="https://uboricc.netlify.app/" className='btn btn_primary web' target="_blank">Live Demo</a>
             </div>
           </div>
@@ -122,11 +122,11 @@ const Protfolio = () => {
             Cloning Of Kissflow
             </h2>
             <h3 className="project_subtitle">
-            Tech stack :  HTML | CSS | Javascript | LocalStorage
+            Tech stack :  HTML | CSS | JavaScript | LocalStorage
             </h3>
             <p className='project_desc'>Kissflow is simple for business users to create powerful apps, processes, or case boards that are natively integrated and flexible. Explore what a true Work Platform can do.Automate workflows in a drag-and-drop no-code visual studio</p>
             <div className="buttons">
-            <a  href="https://github.com/Durgashankar001/humble-lock-7647" className='btn github' target="_blank">Github</a>
+            <a  href="https://github.com/Durgashankar001/Kissflow.com-Clone" className='btn github' target="_blank">Github</a>
             <a   href="https://moonlit-jelly-60aaa4.netlify.app/" className='btn btn_primary web' target="_blank">Live Demo</a>
             </div>
           </div>
@@ -142,7 +142,7 @@ const Protfolio = () => {
             Cloning Of Blue Heaven Cosmetics
             </h2>
             <h3 className="project_subtitle">
-            Tech stack :  HTML | CSS | Javascript | LocalStorage
+            Tech stack :  HTML | CSS | JavaScript | LocalStorage
             </h3>
             <p className='project_desc'>Blue Heaven is making beauty accessible to every Indian woman.It adapt global trends as per Indian skin tones & taste and bring them to every user at the most affordable prices.</p>
             <div className="buttons">

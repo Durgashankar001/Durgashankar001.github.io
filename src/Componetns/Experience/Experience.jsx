@@ -44,7 +44,7 @@ const Experience = () => {
               <div className="client_avtar icon_img">
                 <img src="https://arjun-porfolio.vercel.app/assets/images/flaticon/js.png" alt="avatar" />
               </div>
-              <h4>Javascript</h4>
+              <h4>JavaScript</h4>
               {/* <small className='text_light'>Intermediate</small> */}
               </div>
             </article>

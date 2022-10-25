@@ -6,7 +6,7 @@ import {BiBook} from 'react-icons/bi'
 import {RiServiceLine} from 'react-icons/ri'
 import {BiMessageSquareDetail} from 'react-icons/bi'
 import {CgNotes} from 'react-icons/cg'
-import CV from '../../Assests/DurgashankarPal_resume.pdf'
+import CV from '../../Assests/Durgashankar_Pal_resume.pdf'
 import { useState } from 'react'
 
 const Nav = () => {

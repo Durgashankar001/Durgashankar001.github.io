@@ -121,7 +121,14 @@ header {
     font-weight: 300;
     font-size: 0.9rem;
 }
-
+.resume_download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resume_icon{
+    margin-left: 5px;
+}
 @media screen and (max-width: 1024px) {
 }
 

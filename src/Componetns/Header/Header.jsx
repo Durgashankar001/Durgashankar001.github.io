@@ -7,6 +7,7 @@ import { BsLinkedin } from 'react-icons/bs'
 import { FaGithub } from 'react-icons/fa'
 import { FiDribbble } from 'react-icons/fi'
 import { IoMdMail } from 'react-icons/io'
+import Typewriter from "typewriter-effect"
 import CV from '../../Assests/Durgashankar_Pal_resume.pdf'
 
 const Header = () => {
@@ -32,7 +33,20 @@ const Header = () => {
         <div>
           <h2>Hi, my name is</h2>
           <h1 id="name">Durgashankar Pal</h1>
-          <h2>I'm a <span id="title">Full Stack Developer.</span></h2>
+          <div className='header_type'>I'm a <div id='title'><Typewriter
+          cursorColor="black"
+          options={{
+            strings:[
+              "Full Stack Developer",
+              "Problem Solver",
+              "Front-End Developer",
+              "Software Engineer"
+            ],
+            autoStart:true,
+            loop:true,
+            pauseFor:1000
+          }}
+          /></div></div>
           <a  href={CV} className='btn btn_primary web' download>Resume</a>
           <div className='header_socials'>
             <a href="https://www.linkedin.com/in/durgashankar-pal-3819aa230/" target="_blank"><BsLinkedin /></a>

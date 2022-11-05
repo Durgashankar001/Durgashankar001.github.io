@@ -37,7 +37,7 @@ const Nav = () => {
       </div>
         <div id='mobile'>
           {
-            activemenu ? <BsChevronDoubleRight onClick={handleClick} className="nav_icon "/>  : <AiOutlineMenuFold  className="nav_icon rotate" onClick={handleClick} />
+            activemenu ? <BsChevronDoubleRight onClick={handleClick} className="nav_icon "/>  : <AiOutlineMenuFold  className="nav_icon" onClick={handleClick} />
           }
 
         </div>

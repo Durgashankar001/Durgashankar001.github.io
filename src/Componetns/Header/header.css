@@ -157,6 +157,9 @@
     padding-left: 15%;
     padding-top: 18%;
 }
+.resume_icon{
+    margin-left: 5px;
+}
 
 #aboutme>div:first-child>button {
     background-color: var(--color-bg-variant);
@@ -194,6 +197,8 @@
     padding: 0.5rem 3rem;
     margin-top: 1rem;
     border-radius: 12px;
+    display: flex;
+    align-items: center;
 }
 
 .header_socials2 {

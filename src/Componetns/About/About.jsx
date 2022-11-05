@@ -30,7 +30,7 @@ const About = () => {
           <div className='stats'>1200+</div>
           <p>Hours of Full Stack Coding</p>
           <div className='stats'>100+</div>
-          <p>Hours of Soft Skills Sessions</p>
+          <p>Hours of Soft Skill Sessions</p>
         </div>
         <div className="my_stats">
           <div className='stats'>250+</div>

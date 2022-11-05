@@ -7,6 +7,7 @@ import { BsLinkedin } from 'react-icons/bs'
 import { FaGithub } from 'react-icons/fa'
 import { FiDribbble } from 'react-icons/fi'
 import { IoMdMail } from 'react-icons/io'
+import { IoMdCloudDownload } from 'react-icons/io'
 import Typewriter from "typewriter-effect"
 import CV from '../../Assests/Durgashankar_Pal_resume.pdf'
 
@@ -47,7 +48,7 @@ const Header = () => {
             pauseFor:1000
           }}
           /></div></div>
-          <a  href={CV} className='btn btn_primary web' download>Resume</a>
+          <a  href={CV} className='btn btn_primary web' download>Resume <IoMdCloudDownload className='resume_icon'/></a>
           <div className='header_socials'>
             <a href="https://www.linkedin.com/in/durgashankar-pal-3819aa230/" target="_blank"><BsLinkedin /></a>
             <a href="https://github.com/Durgashankar001" target="_blank"><FaGithub /></a>

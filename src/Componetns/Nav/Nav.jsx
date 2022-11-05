@@ -30,7 +30,7 @@ const Nav = () => {
           <li><a href="#" onClick={()=>handleHide("#")} className={activenav==="#" ? "active" : ""}>Home</a></li>
           <li><a href="#about" onClick={()=>handleHide("#about")} className={activenav==="#about" ? "active" : ""}>About</a></li>
           <li><a href="#projects"  onClick={()=>handleHide("#projects")} className={activenav==="#projects" ? "active" : ""}>Projects</a></li>
-          <li><a href="#skill" onClick={()=>handleHide("#skill")} className={activenav==="#skill" ? "active" : ""}>Skill</a></li>
+          <li><a href="#skill" onClick={()=>handleHide("#skill")} className={activenav==="#skill" ? "active" : ""}>Skills</a></li>
           <li><a href="#contact" onClick={()=>handleHide("#contact")} className={activenav==="#contact" ? "active" : ""}>Contact</a></li>
           <li><a href={CV} download>Resume</a></li>
         </ul>

@@ -3,6 +3,7 @@ import './footer.css'
 import {BsLinkedin} from 'react-icons/bs'
 import {FaGithub} from 'react-icons/fa'
 import {FiDribbble} from 'react-icons/fi'
+import {IoMdMail} from 'react-icons/io'
 
 const Footer = () => {
   return (
@@ -19,7 +20,7 @@ const Footer = () => {
       <div className="footer_social">
       <a href="https://www.linkedin.com/in/durgashankar-pal-3819aa230/" target="_blank"><BsLinkedin/></a>
         <a href="https://github.com/Durgashankar001" target="_blank"><FaGithub/></a>
-        <a href="mailto:durgashankarpal14285@gmail.com" target="_blank"><FiDribbble/></a>
+        <a href="mailto:durgashankarpal14285@gmail.com" target="_blank"><IoMdMail/></a>
       </div>
 
       {/* <div className="footer_copyright">

@@ -3,11 +3,16 @@ import './header.css'
 import CTA from './CTA'
 import ME from '../../Assests/me_img.png'
 import HeaderSocial from './HeaderSocial'
+import { BsLinkedin } from 'react-icons/bs'
+import { FaGithub } from 'react-icons/fa'
+import { FiDribbble } from 'react-icons/fi'
+import { IoMdMail } from 'react-icons/io'
+import CV from '../../Assests/Durgashankar_Pal_resume.pdf'
 
 const Header = () => {
   return (
     <header>
-      <div className="container header_container">
+      {/* <div className="container header_container">
       <h5>Hello I'm</h5>
       <h1>DURGASHANKAR PAL</h1>
       <ul className="dynamic_text">
@@ -22,6 +27,35 @@ const Header = () => {
       </div>
 
       <a href="#contact" className='scroll_down'>Scroll Down</a>
+      </div> */}
+      <div id="aboutme">
+        <div>
+          <h2>Hi, my name is</h2>
+          <h1 id="name">Durgashankar Pal</h1>
+          <h2>I'm a <span id="title">Full Stack Developer.</span></h2>
+          <a  href={CV} className='btn btn_primary web' download>Resume</a>
+          <div className='header_socials'>
+            <a href="https://www.linkedin.com/in/durgashankar-pal-3819aa230/" target="_blank"><BsLinkedin /></a>
+            <a href="https://github.com/Durgashankar001" target="_blank"><FaGithub /></a>
+            <a href="mailto:durgashankarpal14285@gmail.com" target="_blank"><IoMdMail /></a>
+
+          </div>
+        </div>
+        <div>
+          <div>
+            <div id="picborder">
+              <div id="pic">
+                <img src={ME} alt="" />
+              </div>
+            </div>
+            <div className='header_socials2'>
+              <a href="https://www.linkedin.com/in/durgashankar-pal-3819aa230/" target="_blank"><BsLinkedin /></a>
+              <a href="https://github.com/Durgashankar001" target="_blank"><FaGithub /></a>
+              <a href="mailto:durgashankarpal14285@gmail.com" target="_blank"><IoMdMail /></a>
+            </div>
+          </div>
+        </div>
+
       </div>
     </header>
   )

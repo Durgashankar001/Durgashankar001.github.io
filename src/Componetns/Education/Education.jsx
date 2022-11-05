@@ -1,5 +1,5 @@
 import React from 'react'
-import './testimonial.css'
+import './Education.css'
 import { Pagination, A11y } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -31,7 +31,7 @@ const data = [
 
 const Testimonial = () => {
   return (
-    <section>
+    <section id='education'>
       <h5>My</h5>
       <h2>Education</h2>
       <Swiper className="container testimonials_container"

@@ -5,7 +5,7 @@ import About from './Componetns/About/About'
 import Experience from './Componetns/Experience/Experience'
 // import Servises from './Componetns/Services/Servises'
 import Protfolio from './Componetns/Protfolio/Protfolio'
-import Testimonial from './Componetns/Testimonials/Testimonial'
+import Testimonial from './Componetns/Education/Education'
 import Contact from './Componetns/Contact/Contact'
 import Footer from './Componetns/Footer/Footer'
 import Services from "./Componetns/Services/Servises";
@@ -14,18 +14,18 @@ import Github from "./Componetns/GithubCalender/githubCalender";
 
 function App() {
   return (
-   <>
-      <Header/>
-      <Nav/>
-      <About/>
-      <Experience/>
-      <Protfolio/>
-      <Services/>
-      <Github/>
-      <Testimonial/>
-      <Contact/>
-      <Footer/>
-   </>
+    <>
+      <Nav />
+      <Header />
+      <About />
+      <Experience />
+      <Protfolio />
+      <Services />
+      <Github />
+      <Testimonial />
+      <Contact />
+      <Footer />
+    </>
   );
 }
 

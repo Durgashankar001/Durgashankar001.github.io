@@ -124,7 +124,7 @@ const Protfolio = () => {
             <h3 className="project_subtitle">
             Tech stack :  HTML | CSS | JavaScript | LocalStorage
             </h3>
-            <p className='project_desc'>Kissflow is simple for business users to create powerful apps, processes, or case boards that are natively integrated and flexible. Explore what a true Work Platform can do.Automate workflows in a drag-and-drop no-code visual studio</p>
+            <p className='project_desc'>Kissflow is simple for business users to create powerful apps, processes, or case boards that are natively integrated and flexible. In this project you can explore what a true Work Platform can do.</p>
             <div className="buttons">
             <a  href="https://github.com/Durgashankar001/Kissflow.com-Clone" className='btn github' target="_blank">Github</a>
             <a   href="https://moonlit-jelly-60aaa4.netlify.app/" className='btn btn_primary web' target="_blank">Live Demo</a>

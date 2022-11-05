@@ -311,6 +311,10 @@
     .header_socials {
         display: none;
     }
+    #aboutme .web{
+        margin: auto;
+        margin-top: 1rem;
+    }
 
 
 }

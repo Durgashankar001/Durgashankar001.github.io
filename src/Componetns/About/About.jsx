@@ -9,9 +9,9 @@ import "aos/dist/aos.css"
 import { useEffect } from 'react'
 
 const About = () => {
-  // useEffect(()=>{
-  //   Aos.init({duration:1000})
-  // },[])
+  useEffect(()=>{
+    Aos.init({duration:1000})
+  },[])
   return (
     <section id='about'>
       <h5 >Get to Know</h5>
@@ -27,15 +27,15 @@ const About = () => {
       </div>
       <div className='container experience_container about'>
         <div className="my_stats">
-          <div className='stats'>1200+</div>
+          <div data-aos="fade-up" className='stats'>1200+</div>
           <p>Hours of Full Stack Coding</p>
-          <div className='stats'>100+</div>
+          <div data-aos="fade-up" className='stats'>100+</div>
           <p>Hours of Soft Skill Sessions</p>
         </div>
-        <div className="my_stats">
+        <div data-aos="fade-up" className="my_stats">
           <div className='stats'>250+</div>
           <p>DSA Problems</p>
-          <div className='stats'>4+</div>
+          <div data-aos="fade-up" className='stats'>4+</div>
           <p>Projects Done</p>
         </div>
       </div>

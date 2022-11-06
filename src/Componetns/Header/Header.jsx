@@ -10,6 +10,7 @@ import { IoMdMail } from 'react-icons/io'
 import { IoMdCloudDownload } from 'react-icons/io'
 import Typewriter from "typewriter-effect"
 import CV from '../../Assests/Durgashankar_Pal_resume.pdf'
+import Particles, { ISourceOptions } from "react-tsparticles";
 
 const Header = () => {
   return (
@@ -35,20 +36,20 @@ const Header = () => {
           <h2>Hi, my name is</h2>
           <h1 id="name">Durgashankar Pal</h1>
           <div className='header_type'>I'm a <div id='title'><Typewriter
-          cursorColor="black"
-          options={{
-            strings:[
-              "Full Stack Developer",
-              "Problem Solver",
-              "Front-End Developer",
-              "Software Engineer"
-            ],
-            autoStart:true,
-            loop:true,
-            pauseFor:1000
-          }}
+            cursorColor="black"
+            options={{
+              strings: [
+                "Full Stack Developer",
+                "Problem Solver",
+                "Front-End Developer",
+                "Software Engineer"
+              ],
+              autoStart: true,
+              loop: true,
+              pauseFor: 1000
+            }}
           /></div></div>
-          <a  href={CV} className='btn btn_primary web' download>Resume <IoMdCloudDownload className='resume_icon'/></a>
+          <a href={CV} className='btn btn_primary web' download>Resume <IoMdCloudDownload className='resume_icon' /></a>
           <div className='header_socials'>
             <a href="https://www.linkedin.com/in/durgashankar-pal-3819aa230/" target="_blank"><BsLinkedin /></a>
             <a href="https://github.com/Durgashankar001" target="_blank"><FaGithub /></a>

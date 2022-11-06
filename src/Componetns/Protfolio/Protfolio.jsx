@@ -9,13 +9,13 @@ import "aos/dist/aos.css"
 import { useEffect } from 'react'
 
 const Protfolio = () => {
-  // useEffect(()=>{
-  //   Aos.init({duration:1000})
-  // },[])
+  useEffect(()=>{
+    Aos.init({duration:1000})
+  },[])
   return (
     <section id='projects'>
-      <h5>My Recent Works</h5>
-      <h2>Projects</h2>
+      <h5 data-aos="fade-up">My Recent Works</h5>
+      <h2 data-aos="fade-up">Projects</h2>
       {/* <div className='container portfolio_container'>
         <article className='portfolio_item'>
           <div className="portfolio_item_image">
@@ -71,12 +71,12 @@ const Protfolio = () => {
 
        <div className='allitems container'>
         <div className="item">
-          <div className="left">
+          <div className="left" data-aos="flip-left">
             <div className="img">
               <img src={IMG4} alt="first" />
             </div>
           </div>
-          <div className="right">
+          <div className="right" data-aos="flip-right">
             <h2 className="project_title">
             Cloning Of Clockify
             </h2>
@@ -91,12 +91,12 @@ const Protfolio = () => {
           </div>
         </div>
         <div className="item">
-          <div className="left">
+          <div className="left" data-aos="flip-right">
             <div className="img">
               <img src={IMG1} alt="first" />
             </div>
           </div>
-          <div className="right">
+          <div className="right" data-aos="flip-left">
             <h2 className="project_title">
             Cloning Of Uboric
             </h2>
@@ -112,12 +112,12 @@ const Protfolio = () => {
           </div>
         </div>
         <div className="item">
-          <div className="left">
+          <div className="left" data-aos="flip-left">
             <div className="img">
               <img src={IMG2} alt="first" />
             </div>
           </div>
-          <div className="right">
+          <div className="right" data-aos="flip-right">
             <h2 className="project_title">
             Cloning Of Kissflow
             </h2>
@@ -132,12 +132,12 @@ const Protfolio = () => {
           </div>
         </div>
         <div className="item">
-          <div className="left">
+          <div className="left" data-aos="flip-right">
             <div className="img">
               <img src={IMG3} alt="first" />
             </div>
           </div>
-          <div className="right">
+          <div className="right" data-aos="flip-left">
             <h2 className="project_title">
             Cloning Of Blue Heaven Cosmetics
             </h2>

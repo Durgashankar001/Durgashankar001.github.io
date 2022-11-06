@@ -1,14 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import GitHubCalendar from "react-github-calendar"
 import "./githubCalendar.css"
+import Aos from 'aos'
+import "aos/dist/aos.css"
 
 
 const Github = () => {
+  useEffect(()=>{
+    Aos.init({duration:1000})
+  },[])
   // GitHubCalendar(".github_calendar", "Durgashankar001", { responsive: true });
   return (
     <section>
-      <h5 >Github</h5>
-      <h2 >My Github Stats</h2>
+      <h5 data-aos="fade-up">Github</h5>
+      <h2 data-aos="fade-up">My Github Stats</h2>
        <div className='container experience_container about github_status'>
         <div className="git_stats">
         <a href="https://github.com/Durgashankar001?tab=repositories">

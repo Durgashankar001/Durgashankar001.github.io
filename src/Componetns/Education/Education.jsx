@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Aos from 'aos'
+import "aos/dist/aos.css"
 import './Education.css'
 import { Pagination, A11y } from 'swiper';
 
@@ -30,10 +32,13 @@ const data = [
 ]
 
 const Testimonial = () => {
+  useEffect(()=>{
+    Aos.init({duration:1000})
+  },[])
   return (
     <section id='education'>
-      <h5>My</h5>
-      <h2>Education</h2>
+      <h5 data-aos="fade-up">My</h5>
+      <h2 data-aos="fade-up">Education</h2>
       <Swiper className="container testimonials_container"
          modules={[ Pagination, A11y]}
          spaceBetween={40}

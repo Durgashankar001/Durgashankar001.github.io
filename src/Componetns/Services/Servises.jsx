@@ -7,13 +7,13 @@ import { useEffect } from 'react'
 // import AVTAR from "../../Assests/avatar1.jpg"
 
 const Services = () => {
-  // useEffect(() => {
-  //   Aos.init({ duration: 1000 })
-  // }, [])
+  useEffect(() => {
+    Aos.init({ duration: 1000 })
+  }, [])
   return (
     <section id='skill'>
-      <h5 >The Skills I Have</h5>
-      <h2 >Techincal Skills & SoftSkills</h2>
+      <h5 data-aos="fade-up">The Skills I Have</h5>
+      <h2 data-aos="fade-up">Techincal Skills & SoftSkills</h2>
 
       <div className='container experience_container pad_div'>
         <div className="experience_frontend">
@@ -22,7 +22,7 @@ const Services = () => {
             <article  className='experince_details'>
               {/* <BsPatchCheckFill className='experience_details_icon' /> */}
               <div className='circle_one'>
-                <div className='circle_main'>
+                <div className='circle_main' data-aos="fade-up">
                 <div className="percent">
                   <div className="dot"></div>
                 <svg>
@@ -40,8 +40,8 @@ const Services = () => {
             </article>
             <article  className='experince_details'>
               {/* <BsPatchCheckFill className='experience_details_icon' /> */}
-              <div className='circle_two'>
-              <div className='circle_main'>
+              <div className='circle_two' >
+              <div className='circle_main'  data-aos="fade-up">
                 <div className="percent">
                   <div className="dot"></div>
                 <svg>
@@ -57,10 +57,10 @@ const Services = () => {
                 {/* <small className='text_light'>Intermediate</small> */}
               </div>
             </article>
-            <article  className='experince_details'>
+            <article  className='experince_details' >
               {/* <BsPatchCheckFill className='experience_details_icon' /> */}
-              <div className='circle_three'>
-              <div className='circle_main'>
+              <div className='circle_three' >
+              <div className='circle_main' data-aos="fade-up">
                 <div className="percent">
                   <div className="dot"></div>
                 <svg>
@@ -78,8 +78,8 @@ const Services = () => {
             </article>
             <article  className='experince_details'>
               {/* <BsPatchCheckFill className='experience_details_icon' /> */}
-              <div className='circle_four'>
-              <div className='circle_main'>
+              <div className='circle_four' >
+              <div className='circle_main'  data-aos="fade-up">
                 <div className="percent">
                   <div className="dot"></div>
                 <svg>
@@ -95,10 +95,10 @@ const Services = () => {
                 {/* <small className='text_light'>Experienced</small> */}
               </div>
             </article>
-            <article  className='experince_details'>
+            <article  className='experince_details' >
               {/* <BsPatchCheckFill className='experience_details_icon' /> */}
-              <div className='circle_five'>
-              <div className='circle_main'>
+              <div className='circle_five' >
+              <div className='circle_main' data-aos="fade-up">
                 <div className="percent">
                   <div className="dot"></div>
                 <svg>
@@ -114,10 +114,10 @@ const Services = () => {
                 {/* <small className='text_light'>Intermediate</small> */}
               </div>
             </article>
-            <article className='experince_details'>
+            <article className='experince_details' >
               {/* <BsPatchCheckFill className='experience_details_icon' /> */}
-              <div className='circle_six'>
-              <div className='circle_main'>
+              <div className='circle_six' >
+              <div className='circle_main' data-aos="fade-up">
                 <div className="percent">
                   <div className="dot"></div>
                 <svg>
@@ -138,10 +138,10 @@ const Services = () => {
         <div className="experience_backend">
           <h3>Soft Skills</h3>
           <div className="experience_content">
-            <article  className='experince_details'>
+            <article  className='experince_details' >
               {/* <BsPatchCheckFill className='experience_details_icon' /> */}
-              <div className='circle_seven'>
-              <div className='circle_main'>
+              <div className='circle_seven' >
+              <div className='circle_main' data-aos="fade-up">
                 <div className="percent">
                   <div className="dot"></div>
                 <svg>
@@ -157,10 +157,10 @@ const Services = () => {
                 {/* <small className='text_light'>Intermediate</small> */}
               </div>
             </article>
-            <article  className='experince_details'>
+            <article  className='experince_details' >
               {/* <BsPatchCheckFill className='experience_details_icon' /> */}
               <div className='circle_eight'>
-              <div className='circle_main'>
+              <div className='circle_main'  data-aos="fade-up">
                 <div className="percent">
                   <div className="dot"></div>
                 <svg>
@@ -176,10 +176,10 @@ const Services = () => {
                 {/* <small className='text_light'>Intermediate</small> */}
               </div>
             </article>
-            <article  className='experince_details'>
+            <article  className='experince_details' >
               {/* <BsPatchCheckFill className='experience_details_icon' /> */}
-              <div className='circle_nine'>
-              <div className='circle_main'>
+              <div className='circle_nine' >
+              <div className='circle_main' data-aos="fade-up">
                 <div className="percent">
                   <div className="dot"></div>
                 <svg>
@@ -195,10 +195,10 @@ const Services = () => {
                 {/* <small className='text_light'>Intermediate</small> */}
               </div>
             </article>
-            <article  className='experince_details'>
+            <article  className='experince_details' >
               {/* <BsPatchCheckFill className='experience_details_icon' /> */}
-              <div className='circle_ten'>
-              <div className='circle_main'>
+              <div className='circle_ten' >
+              <div className='circle_main' data-aos="fade-up">
                 <div className="percent">
                   <div className="dot"></div>
                 <svg>
@@ -216,8 +216,8 @@ const Services = () => {
             </article>
             <article  className='experince_details'>
               {/* <BsPatchCheckFill className='experience_details_icon' /> */}
-              <div className='circle_eleven'>
-              <div className='circle_main'>
+              <div className='circle_eleven'  >
+              <div className='circle_main' data-aos="fade-up">
                 <div className="percent">
                   <div className="dot"></div>
                 <svg>

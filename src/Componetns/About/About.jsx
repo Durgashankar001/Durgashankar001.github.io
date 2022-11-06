@@ -14,8 +14,8 @@ const About = () => {
   },[])
   return (
     <section id='about'>
-      <h5 data-aos="fade-up">Get to Know</h5>
-      <h2 data-aos="fade-up">About Me</h2>
+      <h5 >Get to Know</h5>
+      <h2 >About Me</h2>
       <div className='container about_container'>
         <div className="about_content">
           <p >Skilled full stack developer and quick learner <br /> who possesses the ability to adapt with

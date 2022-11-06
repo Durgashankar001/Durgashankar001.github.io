@@ -36,6 +36,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     background: var(--color-bg-variant);
+    /* background-image: url(C:\Users\Jyotirmaya\OneDrive\Desktop\My_Protfolio\my_protfolio\src\Assests\bg-texture.png); */
     padding: 20px 80px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     position: fixed;
@@ -44,6 +45,8 @@ nav{
     width: 100%;
     z-index: 100000;
     margin-bottom: 130px;
+    /* border-bottom-left-radius: 15px; */
+    /* border-bottom-right-radius: 15px; */
 }
 .dp{
     font-size: 1.2rem;

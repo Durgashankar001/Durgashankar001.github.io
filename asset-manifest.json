@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e4335d23.css",
-    "main.js": "/static/js/main.abb7ea37.js",
+    "main.js": "/static/js/main.47735247.js",
     "static/media/me_img.png": "/static/media/me_img.658df818ea32cd922293.png",
     "static/media/one.jpeg": "/static/media/one.16506f93922278e3050b.jpeg",
     "static/media/Durgashankar_Pal_resume.pdf": "/static/media/Durgashankar_Pal_resume.231768629ad4030d56c4.pdf",
@@ -11,10 +11,10 @@
     "static/media/clockify.png": "/static/media/clockify.547e3be301d130948a14.png",
     "index.html": "/index.html",
     "main.e4335d23.css.map": "/static/css/main.e4335d23.css.map",
-    "main.abb7ea37.js.map": "/static/js/main.abb7ea37.js.map"
+    "main.47735247.js.map": "/static/js/main.47735247.js.map"
   },
   "entrypoints": [
     "static/css/main.e4335d23.css",
-    "static/js/main.abb7ea37.js"
+    "static/js/main.47735247.js"
   ]
 }

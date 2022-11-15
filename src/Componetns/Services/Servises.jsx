@@ -72,7 +72,7 @@ const Services = () => {
                 </div>
                 </div>
                 </div>
-                <h4>Javascript</h4>
+                <h4>JavaScript</h4>
                 {/* <small className='text_light'>Intermediate</small> */}
               </div>
             </article>

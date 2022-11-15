@@ -10,7 +10,6 @@ import { IoMdMail } from 'react-icons/io'
 import { IoMdCloudDownload } from 'react-icons/io'
 import Typewriter from "typewriter-effect"
 import CV from '../../Assests/Durgashankar_Pal_resume.pdf'
-import Particles, { ISourceOptions } from "react-tsparticles";
 
 const Header = () => {
   return (

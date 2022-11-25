@@ -9,19 +9,18 @@ import "aos/dist/aos.css"
 import { useEffect } from 'react'
 
 const About = () => {
-  useEffect(()=>{
-    Aos.init({duration:1000})
-  },[])
+  useEffect(() => {
+    Aos.init({ duration: 1000 })
+  }, [])
   return (
     <section id='about'>
       <h5 >Get to Know</h5>
       <h2 >About Me</h2>
       <div className='container about_container'>
         <div className="about_content">
-          <p >Skilled full stack developer and quick learner <br /> who possesses the ability to adapt with
-            new environment quickly.  <br /> Looking forward to working with a company that enables
-            me to utilize my knowledge and skills, learn new things and help me achieve personal
-            as well  <br /> as  organizational goals.
+
+
+          <p >Analytical and detail-oriented Full Stack Web Developer, <br /> Capable of writing production-ready code using React JS, Redux, and CSS  <br /> on the front end,  NodeJS, and Express on the backend to build single-page applications. Passionate about coding. <br /> Looking to further enhance my Skill as a future full-stack developer.
           </p>
         </div>
       </div>

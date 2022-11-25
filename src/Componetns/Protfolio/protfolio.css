@@ -112,7 +112,24 @@
     box-shadow: 0 0 20px var(--color-bg-variant); 
     position: relative;
 }
-
+.svg{
+    display: flex;
+    align-items: center;
+}
+.svg svg,.svg img{
+    margin-right: 10px;
+    margin-left: 5px;
+    font-size: 22px;
+    width: 22px;
+    color: var(--color-primary);
+}
+.svg img{
+    border-radius: 50%;
+}
+.svg_item{
+    display: flex;
+    align-items: center;
+}
 #projects .item .left .img img{
     height: 100%;
     border-radius: 12px;
@@ -168,6 +185,12 @@
         width: 90%;
         margin-left: 0;
         margin-top: -160px;
+    }
+    .svg{
+        display: block;
+    }
+    .svg svg,.svg img{
+        margin-top: 10px;
     }
     #projects .item:nth-child(even){
         flex-direction: column;
